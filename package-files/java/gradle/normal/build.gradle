@@ -14,7 +14,7 @@ configurations {
    implementation
 }
 
-ext.log4jversion = '1.2.16'
+ext.log4jversion = '2.0'
 ext.codecVersion = '1.9'
 def commonsLoggingVersion = "1.1.2"
 
@@ -30,7 +30,7 @@ dependencies {
         force = true
     }
 
-    implementation('commons-beanutils:commons-beanutils:1.9.0') {
+    implementation('commons-beanutils:commons-beanutils:1.9.4') {
         exclude group: 'commons-collections', module: 'commons-collections'
     }
 }
